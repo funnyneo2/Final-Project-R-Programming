@@ -66,24 +66,22 @@ yardTOmile <- function(yard){
 #' @export
 mileTOinch <- function(mile){
   inch <- (mile*63360)
-  return(out)
+  return(inch)
 }
 
 #' Converts miles to feet
 #' @export
 mileTOfeet <- function(mile){
   feet <- (mile*5280)
-  return(out)
+  return(feet)
 }
 
 #' Converts miles to yards
 #' @export
 mileTOyard <- function(mile){
   yard <- (mile*1760)
-  return(out)
+  return(yard)
 }
-
-
 
 
 
